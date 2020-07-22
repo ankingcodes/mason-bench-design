@@ -1,0 +1,21 @@
+compopts=[
+"-sprintArrays=true",
+"-sprintTiming=false",
+]
+
+execopts=[
+"--n=10",
+"--numIters=10"
+]
+
+good=[
+"Before update, A is: 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0",
+"A is: 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0"
+]
+
+perfcompopts=[
+"--fast", "--no-local"
+]
+
+perfkeys=["Time:"]
+
