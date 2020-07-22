@@ -23,3 +23,8 @@ transposePerf.m1000=["--m=1000", "--iters=10", "--reference=true"]
 transposePerf.m10000=["--m=10000", "--iters=1", "--reference=false"]
 ```
 - `stencil/`: WIP (complex program)
+- `benchmark.go`: Go's benchmarking implementation
+
+References : 
+- Some benchmarking examples using Go: https://stackimpact.com/blog/practical-golang-benchmarks/
+
