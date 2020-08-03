@@ -1,14 +1,6 @@
+# example of nested toml structure
 [execopts]
-transposePerf="--correctness=true"
-
-[good]
-transposePerf=""
-
-[perfexecopts]
 transposePerf.m10=["--m=10", "--iters=1000", "--reference=true"]
 transposePerf.m1000=["--m=1000", "--iters=10", "--reference=true"]
 transposePerf.m10000=["--m=10000", "--iters=1", "--reference=false"]
-
-[perfKeys]
-transposePerf=["LinearAlgebra.transpose", "BLAS.transpose"]
 

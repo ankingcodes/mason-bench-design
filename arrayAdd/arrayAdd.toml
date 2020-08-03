@@ -1,15 +1,8 @@
-perfcompopts = [ 
+# example of flat toml structure
+compopts = [ 
   "--set order=1000",
   "--set subOrder=1000",
   "--set iterations=5",
   "--set correctness=false"
 ]
 
-perfkeys = [
-  "Elegant:",
-  "Performant:"
-]
-
-good = [
-  "correctness execution complete"
-]

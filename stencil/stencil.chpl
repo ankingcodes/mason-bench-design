@@ -28,7 +28,7 @@ const activePoints = (order-2*R)*(order-2*R),
       coefy : dtype = 1.0,
       tiling = (tileSize > 0 && tileSize < order);
 
-proc main() {
+proc stencil(test: borrowed Bench) {
   if (iterations < 1) {
     writeln("ERROR: iterations must be >= 1: ", iterations);
     exit(1);
