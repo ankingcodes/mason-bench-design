@@ -3,8 +3,7 @@ use Bench;
 // these are some perfcompopts 
 config const order: int = 10,
         suborder: int = 5,
-        iterations: int = 5,
-        corrections: bool = true;
+        iterations: int = 5;
 
 proc elegant(test: borrowed Bench) {
 

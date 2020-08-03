@@ -5,8 +5,7 @@ use Time;
 // execopts
 config const m=1000,
              iters=10,
-             reference=false,
-             correctness=false;
+             reference=false;
 
 config type eltType = real;
 
